@@ -1,5 +1,20 @@
 /* This media query is used only for mobile devices */
 @media only screen and (max-width: 767px) {
+    .footerWrap{
+        flex-direction: column-reverse;
+    }
+    .copyright_content {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -118px;
+    }
+    .social_media_content {
+        display: flex;
+        justify-content: center;
+        margin-top: 41px;
+        margin-right: 10px;
+        margin-bottom: 42px;
+    }
 }
 /* This media query is used only for small tablet devices */
 @media only screen and (min-width: 768px) and (max-width: 990px) {

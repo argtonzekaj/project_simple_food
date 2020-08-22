@@ -148,3 +148,30 @@ select{
     text-decoration: none;
     color: #707070;
 }
+.article__wrapper{
+    margin-top: 105px;
+}
+.article__content h5{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #595C69;
+}
+.article__content span{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.article__content h4{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #303036;
+    margin-bottom: 40px;  
+}
+.article__content p{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #595C69;
+    margin-bottom: 30px;
+}
