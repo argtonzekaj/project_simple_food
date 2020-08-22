@@ -11,20 +11,28 @@ select{
     margin: 0 auto;
 }
 .main_header{
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 .headerWrap{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 30px;    
 }
 .nav_wrapper li:hover{
     padding-left: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 .header_nav{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
 }
 .header_nav li{
@@ -66,7 +74,10 @@ select{
     margin-bottom: 12px;
 }
 .article_thumb:hover{
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 .article_content h3{
@@ -75,6 +86,7 @@ select{
     line-height: 1.33em;
     color: #000000;
     margin-bottom: 16px;
+    -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
 .article_content h3:hover{
@@ -103,6 +115,7 @@ select{
     line-height: 1.33em;
     color: #000000;
     margin-bottom: 16px;
+    -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
 .article_content1 p{
@@ -118,13 +131,22 @@ select{
     text-decoration: none;
 }
 .footerWrap{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .copyright_content{
     margin-top: 41px;
 }
 .social_media_content{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 41px;
     margin-bottom: 42px;
@@ -142,6 +164,7 @@ select{
 }
 .social_media_content a:hover{
     color: black;
+    -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
 .social_media_content a{
