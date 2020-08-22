@@ -1,0 +1,48 @@
+body,
+input,
+textarea,
+option,
+select{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main_header{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.headerWrap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;    
+}
+.nav_wrapper li:hover{
+    padding-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.header_nav{
+    display: flex;
+}
+.header_nav li{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+}
+.header_nav a{
+    text-decoration:none;
+}
+.header_grey{
+    color: #707070!important;
+}
+.header_title h3{
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.34em;
+}
